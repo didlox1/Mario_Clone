@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MapBuilder" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="../Debug/MapBuilder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug/" />
+				<Option deps_output="../Debug/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/D_UNICODE /DUNICODE" />
+					<Add option="/Zi" />
+					<Add option="/DGLEW_STATIC" />
+					<Add option="/W3" />
+					<Add directory="../Mario Clone/src/vendor/OpenGL/" />
+					<Add directory="../Mario Clone/src/" />
+					<Add directory="../Mario Clone/src/vendor/" />
+					<Add directory="../Mario Clone/src/vendor/GLFW/include/" />
+					<Add directory="../Mario Clone/src/vendor/glew-2.1.0/include/" />
+					<Add directory="../Map Builder/src/vendor/" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+					<Add library="OpenGL.lib" />
+					<Add library="glew32s.lib" />
+					<Add library="OpenGL32.lib" />
+					<Add library="glfw3.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="../Mario Clone/src/vendor/OpenGL/lib/" />
+					<Add directory="../Mario Clone/src/vendor/GLFW/lib-vc2022/" />
+					<Add directory="../Mario Clone/src/vendor/glew-2.1.0/lib/Release/x64/" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="../Debug/MapBuilder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug/" />
+				<Option deps_output="../Debug/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/D_UNICODE /DUNICODE" />
+					<Add option="/Zi" />
+					<Add option="/DGLEW_STATIC" />
+					<Add option="/W3" />
+					<Add directory="../Mario Clone/src/vendor/OpenGL/" />
+					<Add directory="../Mario Clone/src/" />
+					<Add directory="../Mario Clone/src/vendor/" />
+					<Add directory="../Mario Clone/src/vendor/GLFW/include/" />
+					<Add directory="../Mario Clone/src/vendor/glew-2.1.0/include/" />
+					<Add directory="../Map Builder/src/vendor/" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+					<Add library="OpenGL.lib" />
+					<Add library="glew32s.lib" />
+					<Add library="OpenGL32.lib" />
+					<Add library="glfw3.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="../Mario Clone/src/vendor/OpenGL/lib/" />
+					<Add directory="../Mario Clone/src/vendor/GLFW/lib-vc2022/" />
+					<Add directory="../Mario Clone/src/vendor/glew-2.1.0/lib/Release/x64/" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="../Release/MapBuilder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release/" />
+				<Option deps_output="../Release/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/D_UNICODE /DUNICODE" />
+					<Add option="/DGLEW_STATIC" />
+					<Add option="/W3" />
+					<Add directory="../Mario Clone/src/vendor/OpenGL/" />
+					<Add directory="../Mario Clone/src/" />
+					<Add directory="../Mario Clone/src/vendor/" />
+					<Add directory="../Mario Clone/src/vendor/GLFW/include/" />
+					<Add directory="../Mario Clone/src/vendor/glew-2.1.0/include/" />
+					<Add directory="../Map Builder/src/vendor/" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+					<Add library="OpenGL.lib" />
+					<Add library="glew32s.lib" />
+					<Add library="OpenGL32.lib" />
+					<Add library="glfw3.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="../Mario Clone/src/vendor/OpenGL/lib/" />
+					<Add directory="../Mario Clone/src/vendor/GLFW/lib-vc2022/" />
+					<Add directory="../Mario Clone/src/vendor/glew-2.1.0/lib/Release/x64/" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="../Release/MapBuilder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release/" />
+				<Option deps_output="../Release/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/D_UNICODE /DUNICODE" />
+					<Add option="/DGLEW_STATIC" />
+					<Add option="/W3" />
+					<Add directory="../Mario Clone/src/vendor/OpenGL/" />
+					<Add directory="../Mario Clone/src/" />
+					<Add directory="../Mario Clone/src/vendor/" />
+					<Add directory="../Mario Clone/src/vendor/GLFW/include/" />
+					<Add directory="../Mario Clone/src/vendor/glew-2.1.0/include/" />
+					<Add directory="../Map Builder/src/vendor/" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+					<Add library="OpenGL.lib" />
+					<Add library="glew32s.lib" />
+					<Add library="OpenGL32.lib" />
+					<Add library="glfw3.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="../Mario Clone/src/vendor/OpenGL/lib/" />
+					<Add directory="../Mario Clone/src/vendor/GLFW/lib-vc2022/" />
+					<Add directory="../Mario Clone/src/vendor/glew-2.1.0/lib/Release/x64/" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="." />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="." />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="/pdb:$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).pdb" />
+		</Linker>
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Map.h" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Menu.h" />
+		<Unit filename="src/OpenGLInit.cpp" />
+		<Unit filename="src/Textures.cpp" />
+		<Unit filename="src/Textures.h" />
+		<Unit filename="src/vendor/imgui/imconfig.h" />
+		<Unit filename="src/vendor/imgui/imgui.cpp" />
+		<Unit filename="src/vendor/imgui/imgui.h" />
+		<Unit filename="src/vendor/imgui/imgui_demo.cpp" />
+		<Unit filename="src/vendor/imgui/imgui_draw.cpp" />
+		<Unit filename="src/vendor/imgui/imgui_impl_glfw.cpp" />
+		<Unit filename="src/vendor/imgui/imgui_impl_glfw.h" />
+		<Unit filename="src/vendor/imgui/imgui_impl_opengl3.cpp" />
+		<Unit filename="src/vendor/imgui/imgui_impl_opengl3.h" />
+		<Unit filename="src/vendor/imgui/imgui_impl_opengl3_loader.h" />
+		<Unit filename="src/vendor/imgui/imgui_internal.h" />
+		<Unit filename="src/vendor/imgui/imgui_tables.cpp" />
+		<Unit filename="src/vendor/imgui/imgui_widgets.cpp" />
+		<Unit filename="src/vendor/imgui/imstb_rectpack.h" />
+		<Unit filename="src/vendor/imgui/imstb_textedit.h" />
+		<Unit filename="src/vendor/imgui/imstb_truetype.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
