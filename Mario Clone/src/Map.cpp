@@ -167,33 +167,49 @@ int Map::Jump() {
 	return true;
 }
 
+////////////////////////////////////////// Collision ///////////////////////////////////////////// 
+
 bool Map::CheckForCollision(float direction)
 {
 	if (direction == up || direction == down) {
 		if ((floor(MarioLocation.y) + direction) >= 0) {
-			if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == blank_space && mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] == blank_space) {
-				return true;
+			//checking if coin
+			if (MarioLocation.x == floor(MarioLocation.x)) {
+				if (mapElements[floor(MarioLocation.y) + direction][int(MarioLocation.x)] == coin){
+					MoneyCounter++;
+					mapElements[floor(MarioLocation.y) + direction][int(MarioLocation.x)] = blank_space;
+					return true;
+				}
 			}
-			if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == coin || mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] == coin) {
-				if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == coin && mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] == coin) //error
-				{
-					MoneyCounter += 2;
+			else {
+				if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == coin && mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] == coin) {
+					MoneyCounter+=2;
 					mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] = blank_space;
 					mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] = blank_space;
 					return true;
 				}
-				else {
+				if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == coin) {
 					MoneyCounter++;
 					mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] = blank_space;
+					return true;
+				}
+				if (mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] == coin) {
+					MoneyCounter++;
 					mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] = blank_space;
 					return true;
 				}
+				
+			}
+			//checking if any block
+			if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == blank_space && mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] == blank_space) {
+				return true;
 			}
 		}
 	}
 	if (direction == up) {
+		//checking if question_mark
 		if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == question_mark || mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] == question_mark) {
-			if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == question_mark) {
+			if (mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] == question_mark || mapElements[floor(MarioLocation.y) + direction][int(ceil(MarioLocation.x))] == coin) {
 				mapElements[floor(MarioLocation.y) + direction][int(floor(MarioLocation.x))] = blank_space;
 			}
 			else {
@@ -204,9 +220,11 @@ bool Map::CheckForCollision(float direction)
 		}
 	}
 	if (direction == left) {
+		//checking if any block
 		if (mapElements[ceil(MarioLocation.y)][int(floor(MarioLocation.x + direction))] == blank_space) {
 			return true;
 		}
+		//checking if coin
 		if (mapElements[ceil(MarioLocation.y)][int(floor(MarioLocation.x + direction))] == coin) {
 			MoneyCounter++;
 			mapElements[ceil(MarioLocation.y)][int(floor(MarioLocation.x + direction))] = blank_space;
@@ -214,9 +232,11 @@ bool Map::CheckForCollision(float direction)
 		}
 	}
 	if (direction == right) {
+		//checking if any block
 		if (mapElements[ceil(MarioLocation.y)][int(ceil(MarioLocation.x + direction))] == blank_space) {
 			return true;
 		}
+		//checking if coin
 		if (mapElements[ceil(MarioLocation.y)][int(ceil(MarioLocation.x + direction))] == coin) {
 			MoneyCounter++;
 			mapElements[ceil(MarioLocation.y)][int(ceil(MarioLocation.x + direction))] = blank_space;
