@@ -1,0 +1,4 @@
+﻿  OpenGLInit.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: "APIENTRY": ponowna definicja makra
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\vendor\GLFW\include\GLFW\glfw3.h(123): message : zobacz poprzednią definicję „APIENTRY”
+  Map Builder.vcxproj -> C:\dev\Mario Clone\Mario Clone\x64\Debug\Map Builder.exe

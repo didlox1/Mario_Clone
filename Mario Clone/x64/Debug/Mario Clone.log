@@ -1,0 +1,38 @@
+﻿  Map.cpp
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(162,43): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(162,138): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(165,43): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(165,131): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(166,44): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(166,132): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(168,41): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(169,41): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(173,40): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(174,40): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(180,42): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(180,139): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(181,43): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(182,40): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(185,40): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(191,23): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(194,23): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(196,20): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(201,23): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(204,23): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(206,20): warning C4244: "argument": konwersja z "float" do "std::array<char [32],18>::size_type", możliwa utrata danych
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(215,37): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+  OpenGLInit.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: "APIENTRY": ponowna definicja makra
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\vendor\GLFW\include\GLFW\glfw3.h(123): message : zobacz poprzednią definicję „APIENTRY”
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\OpenGLInit.cpp(28,1): warning C4005: "HEIGHT": ponowna definicja makra
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.h(18): message : zobacz poprzednią definicję „HEIGHT”
+  Generowanie kodu...
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\Map.cpp(156): warning C4715: "Map::Jump”: niewszystkie ścieżki kodu zwracają wartość
+glew32s.lib(glew.obj) : warning LNK4099: nie znaleziono pliku PDB "vc120.pdb" z elementem "glew32s.lib(glew.obj)" lub w pozycji "C:\dev\Mario Clone\Mario Clone\x64\Debug\vc120.pdb"; obiekt zostanie skonsolidowany bez informacji debugowania
+LINK : warning LNK4098: domyślna biblioteka "LIBCMT" powoduje konflikt z innymi bibliotekami; użyj opcji /NODEFAULTLIB:biblioteka
+LINK : warning LNK4098: domyślna biblioteka "MSVCRT" powoduje konflikt z innymi bibliotekami; użyj opcji /NODEFAULTLIB:biblioteka
+  Mario Clone.vcxproj -> C:\dev\Mario Clone\Mario Clone\x64\Debug\Mario Clone.exe

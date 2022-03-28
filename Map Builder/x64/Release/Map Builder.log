@@ -1,0 +1,30 @@
+﻿  Menu.cpp
+  Map.cpp
+  OpenGLInit.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: "APIENTRY": ponowna definicja makra
+C:\dev\Mario Clone\Mario Clone\Mario Clone\src\vendor\GLFW\include\GLFW\glfw3.h(123): message : zobacz poprzednią definicję „APIENTRY”
+  Textures.cpp
+  glm.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  IndexBuffer.cpp
+  Renderer.cpp
+  Shader.cpp
+  Texture.cpp
+  VertexArray.cpp
+C:\dev\Mario Clone\Mario Clone\Map Builder\src\vendor\OpenGL\VertexArray.cpp(20,3): warning C4312: "typ rzutowania": konwersja z "unsigned int" na "const unsigned int *" jest większej wielkości
+  VertexBuffer.cpp
+OpenGL.lib(stb_image.obj) : warning LNK4075: zignorowano opcję „/EDITANDCONTINUE” z powodu określenia opcji „/OPT:ICF”
+LINK : warning LNK4098: domyślna biblioteka „MSVCRTD” powoduje konflikt z innymi bibliotekami; użyj opcji /NODEFAULTLIB:biblioteka
+LINK : warning LNK4098: domyślna biblioteka „LIBCMT” powoduje konflikt z innymi bibliotekami; użyj opcji /NODEFAULTLIB:biblioteka
+  Trwa generowanie kodu
+  Previous IPDB not found, fall back to full compilation.
+  All 1550 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Zakończono generowanie kodu
+glew32s.lib(glew.obj) : warning LNK4099: nie znaleziono pliku PDB „vc120.pdb” z elementem „glew32s.lib(glew.obj)” lub w pozycji „C:\dev\Mario Clone\Mario Clone\x64\Release\vc120.pdb”; obiekt zostanie skonsolidowany bez informacji debugowania
+  Map Builder.vcxproj -> C:\dev\Mario Clone\Mario Clone\x64\Release\Map Builder.exe
